@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>udzura.jp - <%= @item[:title] %></title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/css/sh_style.css" media="screen">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon" />
+    <link rel="icon" href="/favicon.ico" type="image/vnd.microsoft.icon" />
+
+    <script type="text/javascript" src="/js/sh_main.js"></script>
+    <script type="text/javascript" src="/js/sh_ruby.js"></script>
+    <script type="text/javascript" src="/js/sh_sh.js"></script>
+    <meta name="generator" content="nanoc 3.1.5">
+  </head>
+  <body onload="sh_highlightDocument();">
+    <div id="main">
+      <%= yield %>
+    </div>
+    <div id="sidebar">
+<%= render 'sitemap' %>
+      </ul>
+    </div>
+  </body>
+</html>

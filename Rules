@@ -1,0 +1,63 @@
+#!/usr/bin/env ruby
+
+# A few helpful tips about the Rules file:
+#
+# * The order of rules is important: for each item, only the first matching
+#   rule is applied.
+#
+# * Item identifiers start and end with a slash (e.g. "/about/" for the file
+#   "content/about.html"). To select all children, grandchildren, ... of an
+#   item, use the pattern "/about/*/"; "/about/*" will also select the parent,
+#   because "*" matches zero or more characters.
+
+# don't filter or layout
+compile %r{/(stylesheet|javascript|raw)/.*} do
+end
+#compile '/stylesheet/' do end
+#compile '/stylesheet/*' do end
+#compile '/javascript/*' do end
+#compile '/javascript/*' do end
+
+compile '*' do
+  case item[:extension]
+  when 'gif', 'png', 'jpg'
+    :pass
+  when 'haml'
+    filter :haml
+  when 'mkdn'
+    filter :kramdown
+  else
+    filter :erb
+  end
+  layout('all') unless item.binary?
+end
+
+route '/raw/*' do
+  if item[:extension] && !item[:extension].empty?
+    '/' + basename(item) + '.' + item[:extension]
+  else
+    '/' + basename(item)
+  end
+end
+
+route '/images/*' do
+  '/images/' + basename(item) + '.' + item[:extension]
+end
+
+route '/stylesheet/' do
+  '/css/style.css'
+end
+
+route '/stylesheet/*' do
+  '/css/' + basename(item) + '.css'
+end
+
+route '/javascript/*' do
+  '/js/' + basename(item) + '.js'
+end
+
+route '*' do
+  item.identifier + 'index.html'
+end
+
+layout '*', :erb

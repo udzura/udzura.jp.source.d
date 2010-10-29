@@ -1,0 +1,65 @@
+--- 
+title: Home
+---
+
+%h1 udzura.jp <br />
+%h2 hi
+
+%p i'm udzura (Uchio Kondo). i'm here.
+
+%pre.sh_ruby
+  :escaped
+    
+    echo.hoge
+    puts "#{@item.inspect}"
+
+%pre.sh_sh
+  :escaped
+    function tasu {
+        echo $1 $2 + p | dc
+        return $?
+    }
+    
+    ls -l
+    cd ~/test
+
+%pre{:style => "background-color: #222;color: #ffe;"}
+  :preserve
+    ruby -e "puts %q(
+        <span style="color: yellow !important; font-weight: bold !important;">udzura__atmark__udzura.jp</span>
+    ).sub(/__atmark__/, %q(@)).strip"
+
+%pre.sh_ruby
+  :escaped
+    def hoge
+      :hoge
+    end
+    
+    class XXX
+      class << self
+        def yyy
+          return 0
+        end
+      end
+    end
+
+%div.images
+  = render 'img', {:src_name => "150709359.jpg"}
+  %div 画像のサンプルです
+
+%div.images
+  = render 'img_with_link', {:src_name => "150709359.jpg", :attrs => "width='250'"}
+  %div 画像のサンプル＋リンクです
+
+%h3 about
+%ul
+  %li test
+
+%h3 sites
+%ul
+  %li hoge
+  %li fuga
+
+%h3 webservices
+%ul
+  %li coming soon
