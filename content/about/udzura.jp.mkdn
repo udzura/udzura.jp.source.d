@@ -1,5 +1,6 @@
 --- 
-title: A New Item
+title: udzura.jp
+tags: ['about']
 ---
 
 Hi, I'm a new item!

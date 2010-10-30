@@ -1,5 +1,26 @@
 --- 
 title: Uchio Kondo
+linkname: @udzura (Uchio Kondo)
+tags: ['about']
 ---
 
+# me - @udzura #
+***
+
+## me? ##
 Uchio Kondo(@udzura) is a programmer.
+
+### skills ###
+* Ruby Language (Jan, 2009 - )
+* Linux Skills, especially Ubuntu/Debian
+* Database Skills (Passed IPA(Japan) Database Specialist Exam on 2010)
+  * MySQL
+  * Oracle
+  * SQL Server
+  * PostgreSQL
+* Very little PHP
+* Lerning Java/Scala/Groovy...
+* more...
+
+## bio ##
+* FMS inc. since 2010-03-01

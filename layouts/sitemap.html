@@ -1,8 +1,10 @@
       <h2><a href="/">Top</a></h2>
       <h2>About</h2>
       <ul>
-        <li><a href="/about/udzura">udzura (Uchio Kondo)</a></li>
-        <li><a href="/about/udzura.jp">udzura.jp</a></li>
+      <% for item in items_with_tag('about').sort_by(&:mtime).reverse %>
+        <li><a href="<%= item.path %>" title="<%= item.mtime.strftime('%Y-%m-%d %H:%M updated') %>">
+          <%= item[:linkname] || item[:title] %></a></li>
+      <% end %>
       </ul>
       <h2>Sites</h2>
       <ul>
@@ -13,4 +15,4 @@
       <ul>
         <li>test</li>
       </ul>
-
+ 

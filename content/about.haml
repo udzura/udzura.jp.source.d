@@ -1,5 +1,11 @@
 --- 
-title: A New Item
+title: Abouts
 ---
+%h1 About:
+%hr
 
-Hi, I'm a new item!
+%ul
+- @item.children.sort_by(&:mtime).reverse.each do |item|
+  %li <a href="#{item.path}">#{item[:title]}</a> (#{item.mtime.strftime('%Y-%m-%d %H:%M')})
+  %li #{item.reps.first.name}
+

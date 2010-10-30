@@ -2,7 +2,8 @@
 title: Home
 ---
 
-%h1 udzura.jp <br />
+%h1 udzura.jp
+%hr
 %h2 hi
 
 %p i'm udzura (Uchio Kondo). i'm here.
@@ -12,6 +13,9 @@ title: Home
     
     echo.hoge
     puts "#{@item.inspect}"
+    puts "#{@item.reps.map(&:name).inspect}"
+    puts "#{(@item.methods - Object.new.methods).sort.inspect}"
+    puts "#{@item.attributes.inspect}"
 
 %pre.sh_sh
   :escaped
