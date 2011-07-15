@@ -5,13 +5,27 @@ tags: ['about']
 ---
 
 # me - @udzura #
-***
 
 ## me? ##
 Uchio Kondo(@udzura) is a programmer.
 
+<div class='images'>
+  <a href="/images/161725906.jpg" rel="lightbox" title="this is akubi."><img src="/images/161725906.jpg"  /></a>
+  <div>This is me.</div>
+
+</div>
+
+Below is me eating a "551" brand pork bun.
+
+<div class='images'>
+  <a href="/images/uchio.jpg" rel="lightbox" title="this is uchio."><img src="/images/uchio.jpg" width="360" /></a>
+  <div>This is me.</div>
+
+</div>
+
 ### skills ###
 * Ruby Language (Jan, 2009 - )
+* Java/Groovy
 * Linux Skills, especially Ubuntu/Debian
 * Database Skills (Passed IPA(Japan) Database Specialist Exam on 2010)
   * MySQL
@@ -19,8 +33,28 @@ Uchio Kondo(@udzura) is a programmer.
   * SQL Server
   * PostgreSQL
 * Very little PHP
-* Lerning Java/Scala/Groovy...
+* Lerning Scala/Perl...
 * more...
 
-## bio ##
+### interests ###
+
+* Webservice
+* OpenSource
+* TDD
+* Lo-fi Rock Musics, like Pavement
+
+### bio ##
 * FMS inc. since 2010-03-01
+
+### links ##
+
+* [facebook](http://www.facebook.com/uchio.kondo)
+* [twitter](http://twitter.com/udzura)
+* [github](https://github.com/udzura)
+* blogs are on the left sidebar.
+* "udzura" is my usual id.
+
+### contact ##
+
+<pre class='sh_sourceCode'>ruby -e "puts %q(&#x000A;    <span style="color: yellow !important; font-weight: bold !important;">udzura__atmark__udzura.jp</span>&#x000A;).sub(/__atmark__/, %q(@)).strip"&#x000A;</pre>
+

@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
+# coding: utf-8
 
 # A few helpful tips about the Rules file:
 #
@@ -20,7 +21,7 @@ end
 
 compile '*' do
   case item[:extension]
-  when 'gif', 'png', 'jpg'
+  when 'gif', 'png', 'jpg', 'ttf'
     :pass
   when 'haml'
     filter :haml
@@ -30,6 +31,16 @@ compile '*' do
     filter :erb
   end
   layout('all') unless item.binary?
+end
+
+route '/404' do
+  '/404.html'
+end
+
+route '/ubuntu-font-family/*' do
+  if item[:extension] && !item[:extension].empty?
+    '/ubuntu-font-family/' + basename(item) + '.' + item[:extension]
+  end
 end
 
 route '/raw/*' do

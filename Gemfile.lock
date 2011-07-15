@@ -1,0 +1,20 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    cri (1.0.1)
+    haml (3.1.2)
+    highline (1.6.2)
+    kramdown (0.13.3)
+    nanoc3 (3.1.9)
+      cri (~> 1.0)
+    simple-rss (1.2.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  haml
+  highline
+  kramdown
+  nanoc3
+  simple-rss

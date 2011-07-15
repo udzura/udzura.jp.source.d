@@ -3,29 +3,11 @@ title: Home
 ---
 
 %h1 udzura.jp
-%hr
 %h2 hi
 
 %p i'm udzura (Uchio Kondo). i'm here.
 
-%pre.sh_ruby
-  :escaped
-    
-    echo.hoge
-    puts "#{@item.inspect}"
-    puts "#{@item.reps.map(&:name).inspect}"
-    puts "#{(@item.methods - Object.new.methods).sort.inspect}"
-    puts "#{@item.attributes.inspect}"
-
-%pre.sh_sh
-  :escaped
-    function tasu {
-        echo $1 $2 + p | dc
-        return $?
-    }
-    
-    ls -l
-    cd ~/test
+%h2 contact
 
 %pre.sh_sourceCode
   :preserve
@@ -33,37 +15,14 @@ title: Home
         <span style="color: yellow !important; font-weight: bold !important;">udzura__atmark__udzura.jp</span>
     ).sub(/__atmark__/, %q(@)).strip"
 
-%pre.sh_ruby
-  :escaped
-    def hoge
-      :hoge
-    end
-    
-    class XXX
-      class << self
-        def yyy
-          return 0
-        end
-      end
-    end
+%h2 about
 
-%div.images
-  = render 'img', {:src_name => "150709359.jpg"}
-  %div 画像のサンプルです
+%p
+  this is
+  %a{:href => "/"} udzura.jp
+  , Uchio Kondo's portrait. you can find more on the sidebar.
 
 %div.images
   = render 'img_with_link', {:src_name => "150709359.jpg", :attrs => "width='250'", :caption => 'あくびちゃん'}
   %div 画像のサンプル＋リンクです
 
-%h3 about
-%ul
-  %li test
-
-%h3 sites
-%ul
-  %li hoge
-  %li fuga
-
-%h3 webservices
-%ul
-  %li coming soon

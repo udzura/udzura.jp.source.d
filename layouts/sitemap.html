@@ -1,7 +1,22 @@
       <h2><a href="/">Top</a></h2>
+      <h2>＊ ＊ ＊</h2>
+      <h2>News</h2>
+      <ul>
+      <% for item in udzura_rss.items.take(5) %>
+        <li><a href="<%= item.link %>" title="<%= item.pubDate.strftime('%Y-%m-%d %H:%M posted') %>">
+          <%= strip_short(item.title) %></a></li>
+      <% end %>
+      </ul>
       <h2>About</h2>
       <ul>
       <% for item in items_with_tag('about').sort_by(&:mtime).reverse %>
+        <li><a href="<%= item.path %>" title="<%= item.mtime.strftime('%Y-%m-%d %H:%M updated') %>">
+          <%= item[:linkname] || item[:title] %></a></li>
+      <% end %>
+      </ul>
+      <h2>Projects</h2>
+      <ul>
+      <% for item in items_with_tag('pj').sort_by(&:mtime).reverse %>
         <li><a href="<%= item.path %>" title="<%= item.mtime.strftime('%Y-%m-%d %H:%M updated') %>">
           <%= item[:linkname] || item[:title] %></a></li>
       <% end %>
@@ -13,6 +28,6 @@
       </ul>
       <h2>Webservices</h2>
       <ul>
-        <li>test</li>
+        <li>working...</li>
       </ul>
  

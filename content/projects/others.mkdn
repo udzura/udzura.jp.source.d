@@ -1,0 +1,15 @@
+--- 
+title: Other pj i'm involved
+tags: ['pj']
+---
+
+# Other pj i'm involved #
+
+* 他にやってること
+
+## FacebookIRCGateway ##
+
+* [Github Repo](https://github.com/shunirr/FacebookIrcGateway)
+* I'v given a few commits for this pj. i'm planning i'll be more active...
+* いくつか小さなコミットをしています、もっと活発にやりたいんですがなかなか…
+
