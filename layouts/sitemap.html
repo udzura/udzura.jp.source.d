@@ -4,7 +4,7 @@
       <ul>
       <% for item in udzura_rss.items.take(5) %>
         <li><a href="<%= item.link %>" title="<%= item.pubDate.strftime('%Y-%m-%d %H:%M posted') %>">
-          <%= strip_short(item.title) %></a></li>
+          <%= strip_short(to_english_title(item.link) || item.title) %></a></li>
       <% end %>
       </ul>
       <h2>About</h2>

@@ -18,6 +18,13 @@ def basename(item)
   File.basename(item.identifier)
 end
 
+def to_english_title(blog_url)
+  slug = blog_url.scan(%r{/\d+/\d+/\d+/([-a-zA-Z0-9_]+)/?}).flatten.first
+  slug.split("-").map(&:camelize).join(" ")
+rescue
+  nil
+end
+
 def udzura_rss
   @rss ||= SimpleRSS.parse(open('http://blog.udzura.jp/feed/'))
 end

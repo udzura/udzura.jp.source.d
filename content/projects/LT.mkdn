@@ -5,6 +5,14 @@ tags: ['pj']
 
 # Slides & Talks i have had
 
+## @ "LL Planets" korakuen Aug 2011
+
+* sorry it's available only in Japanese...
+
+<div style="width:425px" id="__ss_8956959"> <strong style="display:block;margin:12px 0 4px"><a href="http://www.slideshare.net/udzura/otomodachi-kakumei2" title="Rubyist started to learn Groovy - things important to leran new LL" target="_blank">Rubyist started to learn Groovy - things important to leran new LL</a></strong> <iframe src="http://www.slideshare.net/slideshow/embed_code/8956959" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe> <div style="padding:5px 0 12px"> View more <a href="http://www.slideshare.net/" target="_blank">presentations</a> from <a href="http://www.slideshare.net/udzura" target="_blank">Uchio Kondo</a> </div> </div>
+
+* related blog post: [in blog.udzura.jp](http://blog.udzura.jp/2011/08/23/ll-planets-private-report/)
+
 ## @ "RubyKaigi of the darkness" nerima 2011
 
 * Sinatra/Padrino intro for Rails-darksided people
