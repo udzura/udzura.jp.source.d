@@ -13,3 +13,7 @@ tags: ['pj']
 * I'v given a few commits for this pj. i'm planning i'll be more active...
 * いくつか小さなコミットをしています、もっと活発にやりたいんですがなかなか…
 
+## kaminari ##
+
+* [sent a small patch for the Sinatra availability](https://github.com/amatsuda/kaminari/pull/179)
+* Then, now, I am a contributor...(!) 

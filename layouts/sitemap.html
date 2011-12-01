@@ -21,13 +21,17 @@
           <%= item[:linkname] || item[:title] %></a></li>
       <% end %>
       </ul>
-      <h2>Sites</h2>
-      <ul>
-        <li><a href="http://blog.udzura.jp/">Tech Blog</a></li>
-        <li><a href="http://d.hatena.ne.jp/udzura">Hatena Blog</a></li>
-      </ul>
       <h2>Webservices</h2>
       <ul>
-        <li>working...</li>
+      <% for item in items_with_tag('webservice').sort_by(&:mtime).reverse %>
+        <li><a href="<%= item.path %>" title="<%= item.mtime.strftime('%Y-%m-%d %H:%M updated') %>">
+          <%= item[:linkname] || item[:title] %></a></li>
+      <% end %>
+      </ul>
+      <h2>Links</h2>
+      <ul>
+        <li><a href="http://blog.udzura.jp/">Tech Blog</a></li>
+        <li><a href="https://github.com/udzura">Github</a></li>
+        <li><a href="http://d.hatena.ne.jp/udzura">Hatena Blog</a></li>
       </ul>
  

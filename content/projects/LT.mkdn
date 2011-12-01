@@ -5,20 +5,28 @@ tags: ['pj']
 
 # Slides & Talks i have had
 
+* Now, some of slides are [available Here](http://www.scribd.com/udzura1984)
+
+## Testing around Sinatra - TokyuRubyKaigi04 @ Shinsen, tokyo
+
+* Testing Sinatra with drunken people
+
+<a title="View Testing in Sinatra on Scribd" href="http://www.scribd.com/doc/73311432/Testing-in-Sinatra" style="margin: 12px auto 6px auto; font-family: Helvetica,Arial,Sans-serif; font-style: normal; font-variant: normal; font-weight: normal; font-size: 14px; line-height: normal; font-size-adjust: none; font-stretch: normal; -x-system-font: none; display: block; text-decoration: underline;">Testing in Sinatra</a> <iframe class="scribd_iframe_embed" src="http://www.scribd.com/embeds/73311432/content?start_page=1&view_mode=slideshow&access_key=key-yvubfx8sf1hbpl5o3vl" data-auto-height="true" data-aspect-ratio="1.33333333333333" scrolling="no" id="doc_73939" width="100%" height="600" frameborder="0"></iframe><script type="text/javascript">(function() { var scribd = document.createElement("script"); scribd.type = "text/javascript"; scribd.async = true; scribd.src = "http://www.scribd.com/javascripts/embed_code/inject.js"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(scribd, s); })();</script>
+
+## Start Padrino @ Hongo, tokyo
+
+* Intoroduction to Padrino framework, and the "buffet" style web development
+
+<a title="View Start Padrino on Scribd" href="http://www.scribd.com/doc/73312640/Start-Padrino" style="margin: 12px auto 6px auto; font-family: Helvetica,Arial,Sans-serif; font-style: normal; font-variant: normal; font-weight: normal; font-size: 14px; line-height: normal; font-size-adjust: none; font-stretch: normal; -x-system-font: none; display: block; text-decoration: underline;">Start Padrino</a> <iframe class="scribd_iframe_embed" src="http://www.scribd.com/embeds/73312640/content?start_page=1&view_mode=list&access_key=key-1aws73v5ady3b5pep1tj" data-auto-height="true" data-aspect-ratio="1.5" scrolling="no" id="doc_98581" width="100%" height="600" frameborder="0"></iframe><script type="text/javascript">(function() { var scribd = document.createElement("script"); scribd.type = "text/javascript"; scribd.async = true; scribd.src = "http://www.scribd.com/javascripts/embed_code/inject.js"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(scribd, s); })();</script>
+
 ## @ "LL Planets" korakuen Aug 2011
 
 * sorry it's available only in Japanese...
-
-<div style="width:425px" id="__ss_8956959"> <strong style="display:block;margin:12px 0 4px"><a href="http://www.slideshare.net/udzura/otomodachi-kakumei2" title="Rubyist started to learn Groovy - things important to leran new LL" target="_blank">Rubyist started to learn Groovy - things important to leran new LL</a></strong> <iframe src="http://www.slideshare.net/slideshow/embed_code/8956959" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe> <div style="padding:5px 0 12px"> View more <a href="http://www.slideshare.net/" target="_blank">presentations</a> from <a href="http://www.slideshare.net/udzura" target="_blank">Uchio Kondo</a> </div> </div>
-
 * related blog post: [in blog.udzura.jp](http://blog.udzura.jp/2011/08/23/ll-planets-private-report/)
 
 ## @ "RubyKaigi of the darkness" nerima 2011
 
 * Sinatra/Padrino intro for Rails-darksided people
-
-<div style="width:425px" id="__ss_8630205"> <strong style="display:block;margin:12px 0 4px"><a href="http://www.slideshare.net/udzura/otomodachikakumei" title="otomodachi-kakumei" target="_blank">otomodachi-kakumei</a></strong> <iframe src="http://www.slideshare.net/slideshow/embed_code/8630205" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe> <div style="padding:5px 0 12px"> View more <a href="http://www.slideshare.net/" target="_blank">presentations</a> from <a href="http://www.slideshare.net/udzura" target="_blank">Uchio Kondo</a> </div> </div>
-
 * related blog post: [in blog.udzura.jp](http://blog.udzura.jp/2011/07/19/i-went-to-rubykaigi2011-and-talked-on-sinatra-padrino/)
 
 ## more coming...

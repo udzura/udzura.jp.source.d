@@ -7,23 +7,21 @@ tags: ['about']
 # me - @udzura #
 
 ## me? ##
-Uchio Kondo(@udzura) is a programmer.
 
-<div class='images'>
-  <a href="/images/161725906.jpg" rel="lightbox" title="this is akubi."><img src="/images/161725906.jpg"  /></a>
-  <div>This is me.</div>
+[Uchio Kondo(@udzura)](http://twitter.com/udzura) is a programmer.
 
-</div>
-
-Below is me eating a "551" brand pork bun.
+Below are me.
 
 <div class='images'>
   <a href="/images/uchio.jpg" rel="lightbox" title="this is uchio."><img src="/images/uchio.jpg" width="360" /></a>
-  <div>This is me.</div>
+  <div>This is me eating a "551" brand pork bun.</div>
+  <a href="/images/ninja.jpg" rel="lightbox" title="this is uchio."><img src="/images/ninja.jpg" width="360" /></a>
+  <div>This is me struggling against the Ninja dog.</div>
 
 </div>
 
 ### skills ###
+
 * Ruby Language (Jan, 2009 - )
 * Java/Groovy
 * Linux Skills, especially Ubuntu/Debian
@@ -33,7 +31,7 @@ Below is me eating a "551" brand pork bun.
   * SQL Server
   * PostgreSQL
 * Very little PHP
-* Lerning Scala/Perl...
+* Lerning Haskell...
 * more...
 
 ### interests ###
@@ -44,6 +42,7 @@ Below is me eating a "551" brand pork bun.
 * Lo-fi Rock Musics, like Pavement
 
 ### bio ##
+
 * FMS inc. since 2010-03-01
 
 ### links ##
@@ -52,6 +51,7 @@ Below is me eating a "551" brand pork bun.
 * [twitter](http://twitter.com/udzura)
 * [github](https://github.com/udzura)
 * blogs are on the left sidebar.
+  * [blog.udzura.jp](http://blog.udzura.jp) (Japanese)
 * "udzura" is my usual id.
 
 ### contact ##

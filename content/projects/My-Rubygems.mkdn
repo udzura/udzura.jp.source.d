@@ -1,0 +1,28 @@
+--- 
+title: Rubygems I created & manage
+tags: ['pj']
+---
+
+# Rubygems I created & manage #
+
+* つくったもの、そのうち Rubygems で入るもの
+
+## rack-session-dbm ##
+
+* [Rubygems.oreg page](https://rubygems.org/gems/rack-session-dbm)
+* Store your rack app's session into file-based session db. It's useful for small project. Watch your datasize using sdbm.
+* Rackアプリケーションのセッションを、ファイルベースのGDBM/SDBMなどに保管できます。SDBMは、データサイズに制限があります。
+
+## rspec-padrino ##
+
+* [Rubygems.org page](https://rubygems.org/gems/rspec-padrino)
+* RSpec utilities, helpers and matchers for Padrino projects, just version 0.0.1 and incomplete.
+* Padrino framework 向けの rspec-rails。未完成。
+
+## pebbles-rack-hanoi ##
+
+* [Rubygems.orgn page](https://rubygems.org/gems/pebbles-rack-hanoi)
+* `Rack::Hanoi` helps you to solve Hanoi's Tower question using your browser.
+* 「ハノイの塔」問題を解きます。ブラウザで……。
+
+## More coming!! ##
