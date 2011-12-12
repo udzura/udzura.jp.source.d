@@ -26,7 +26,7 @@ rescue
 end
 
 def udzura_rss
-  @rss ||= SimpleRSS.parse(open('http://blog.udzura.jp/feed/'))
+  $_udzura_rss ||= SimpleRSS.parse(open('http://blog.udzura.jp/feed/'))
 end
 
 def strip_short(title, len=32)
