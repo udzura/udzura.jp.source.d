@@ -43,7 +43,14 @@ Below are me.
 
 ### bio ##
 
-* FMS inc. since 2010-03-01
+* Aiming INC. since Feb. 2012
+* FMS INC. since Mar. 2010
+
+### essays ###
+
+* [Rack/Sinatra/Padrino @ Rubyist Magazine](http://jp.rubyist.net/magazine/?0036-SinatraReintroduction)
+* [@gihyo's Web+DB Press - "All About Web Tech / Section 4: Database" at vol.68](http://gihyo.jp/magazine/wdpress/archive/2012/vol68)
+* [@gihyo's Web+DB Press - "Beating the Average Rubyists" since vol.69](http://gihyo.jp/magazine/wdpress/archive/2012/vol69)
 
 ### links ##
 

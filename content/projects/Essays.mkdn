@@ -1,0 +1,33 @@
+--- 
+title: Essays
+tags: ['pj']
+---
+
+# Essays (All in Japanese) #
+
+## [Rack/Sinatra/Padrino](http://jp.rubyist.net/magazine/?0036-SinatraReintroduction)
+
+* @ Rubyist Magazine
+* A essay wrote to free web magazine "Rubyist Magazine". About Sinatra, Padrino, and Rack frameworks.
+
+## ["All About Web Tech / Section 4: Database"](http://gihyo.jp/magazine/wdpress/archive/2012/vol68)
+
+* @gihyo's Web+DB Press - at vol.68
+* Some RDBMS & NoSQL Essay. 
+
+## ["Beating the Average Rubyists"](http://gihyo.jp/magazine/wdpress/archive/2012/vol69)
+
+* @gihyo's Web+DB Press - since vol.69
+* Serial essays about Ruby. Themes are:
+  * Padrino
+  * ActiveSupport
+  * and more...
+
+## Acknowledgements (Reviewers) ##
+
+* `They.sort_by { rand }`
+  * Tatsuya SASAKI
+  * Daisuke FUJIMURA
+  * Takeshi YABE
+  * Satoshi NAMAI
+* super thanks!
